@@ -1,0 +1,71 @@
+.formulario {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.formulario div {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.formulario input[type="text"],
+.formulario input[type="number"],
+.formulario input[type="date"],
+.formulario input[type="checkbox"] {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333333;
+}
+
+.formulario input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.formulario button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.formulario button:hover {
+    background-color: #0056b3;
+}
+
+.corpo {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
